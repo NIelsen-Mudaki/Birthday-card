@@ -1,0 +1,10 @@
+body{
+    background-color: wheat;
+}
+.description h1{
+    margin: 30px;
+}
+.description p{
+    margin: 50px;
+    width: 900px;
+}
