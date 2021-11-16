@@ -6,3 +6,12 @@ body{
 .form{
     margin-top: 100px;
 }
+#DoB{
+    width: 60px;
+}
+#MoB{
+    width: 60px;
+}
+#YoB{
+    width: 90px;
+}
