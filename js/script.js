@@ -11,6 +11,9 @@ dd = document.getElementById('DoB');
 
 mm = document.getElementById('MoB');
 
+cc, yy = document.getElementById('YoB');
+
+getDay(19, 98, 09, 04)
 if(male = dayOfWeek[0]) {
     alert('Your Akan name is ' + akanNameMale[0] );
 } else if(male = dayOfWeek[1]){
