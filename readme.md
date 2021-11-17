@@ -14,7 +14,7 @@
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
 
 ## Link to live site
-https//:nielsen-mudaki.github.io/birthday-card
+https://nielsen-mudaki.github.io/Birthday-card/
 
 ## Installation 
 ### Requirement
@@ -50,5 +50,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ​
 ## Author's Info
-Slack - Nielsen Mudaki
-Email - jumbanielsen@gmail.com
+* Slack - Nielsen Mudaki
+* Email - jumbanielsen@gmail.com
