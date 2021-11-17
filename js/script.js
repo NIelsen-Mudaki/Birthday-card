@@ -1,18 +1,12 @@
 var dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saurday'];
 var akanNameMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var akanNameFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
-var male = document.getElementById('male');
-var female = document.getElementById('female');
+var male;
+var female;
 var cc , yy, mm, dd;
 function getDay(cc, yy, mm, dd){
-    return ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7;
+    return parseInt(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7);
 }
-dd = document.getElementById('DoB');
-
-mm = document.getElementById('MoB');
-
-cc, yy = document.getElementById('YoB');
-
 getDay(19, 98, 09, 04)
 if(male = dayOfWeek[0]) {
     alert('Your Akan name is ' + akanNameMale[0] );
